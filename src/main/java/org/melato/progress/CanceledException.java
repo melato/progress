@@ -1,4 +1,4 @@
-/* $Header: c:\\cvsroot/dev/java/aa/progress/CanceledException.java,v 1.2 2007/12/04 03:26:18 athana Exp $
+/* 
  * Copyright (c) Alex Athanasopoulos 2007
  */
 package org.melato.progress;
@@ -9,6 +9,7 @@ package org.melato.progress;
  * @date Dec 1, 2007
  */
 public class CanceledException extends RuntimeException {
+  // consider using java.util.concurrent.CancellationException
   // The american spelling is canceled.  The british spelling is cancelled.
 	static private final long serialVersionUID = 1L;
 }
